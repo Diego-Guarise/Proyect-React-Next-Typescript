@@ -1,0 +1,81 @@
+.userList {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 1.1rem;
+    color: #666666;
+    margin: 0;
+}
+
+.searchContainer {
+    position: relative;
+    width: 250px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px 15px 10px 35px; /* Ajusta el espacio a la izquierda para el ícono */
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: #f7f8fc;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.searchInput::placeholder {
+    color: #b0b3c6;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #b0b3c6;
+}
+
+.userTableContainer {
+    max-height: 400px; /* Ajusta la altura para mostrar aproximadamente 10 usuarios */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    width: 100%; /* Asegura que la tabla ocupe el ancho completo */
+}
+
+.userList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userList th,
+.userList td {
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #f0f2f5;
+    white-space: nowrap;
+}
+
+.userList th {
+    color: #888;
+    font-weight: bold;
+}
+
+.userList td {
+    color: #555;
+}

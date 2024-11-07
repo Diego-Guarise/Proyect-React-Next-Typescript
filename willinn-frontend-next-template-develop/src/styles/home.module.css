@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    margin-left: 15vw; /* Deja espacio para el Sidebar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.userList {
+    flex: 2;
+    min-width: 300px; /* Evita que sea demasiado pequeño en pantallas pequeñas */
+}
+
+.userForm {
+    flex: 1;
+    min-width: 250px; /* Evita que sea demasiado pequeño en pantallas pequeñas */
+}

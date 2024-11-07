@@ -1,0 +1,57 @@
+/* Sidebar principal */
+.sidebar {
+    width: 20vw; /* Sidebar ocupa el 20% del ancho de la ventana */
+    min-width: 180px; /* Ancho mínimo para que no se vuelva demasiado pequeño */
+    max-width: 300px; /* Ancho máximo para pantallas muy grandes */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 180px; /* Ajuste del tamaño máximo para que no sea demasiado grande */
+    height: auto;
+    object-fit: contain; /* Asegura que la imagen se mantenga en su contenedor */
+    margin-bottom: 30px;
+}
+
+
+
+.navList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 23px 15px;
+    font-size: 1.1rem;
+    color: #888888;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navItem:hover {
+    background-color: #f0f2f5;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.active {
+    color: #ff007f;
+    font-weight: bold;
+}
