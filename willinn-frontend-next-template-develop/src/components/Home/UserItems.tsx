@@ -70,6 +70,7 @@ const UserItems = ({ user, onUserUpdate, onUserDelete }: UserItemsProps) => {
                 console.log("Usuario eliminado con éxito");
                 onUserDelete(user.id);
             }
+            onUserUpdate(); // Actualizar la lista de usuarios después de eliminar
         } catch (error) {
             console.error("Error al borrar user:", error);
         }
