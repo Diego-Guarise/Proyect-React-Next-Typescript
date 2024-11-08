@@ -46,7 +46,6 @@ const UserItems = ({ user, onUserUpdate, onUserDelete }: UserItemsProps) => {
 
             setIsEditing(false);
             onUserUpdate(); // Actualizar la lista de usuarios después de guardar
-            alert("User actualizado con exito");
         } catch (error) {
             alert("Error: No se pudo actualizar user");
         }
