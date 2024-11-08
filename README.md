@@ -96,12 +96,14 @@ La aplicación se abrirá en http://localhost:3000
 
 ## 🔄 Uso de la aplicación
 Inicio de sesión
-Accede a la página de inicio de sesión.
-Ingresa tu email y contraseña para autenticarte.
+- Accede a la página de inicio de sesión.
+- Ingresa tu email y contraseña para autenticarte.
+
 Gestión de usuarios
-Crear Usuario: Navega a la sección de usuarios y completa el formulario para agregar un nuevo usuario.
-Editar Usuario: Haz clic en el icono de edición junto al usuario que deseas modificar.
-Eliminar Usuario: Haz clic en el icono de eliminación para borrar un usuario.
+- Crear Usuario: Navega a la sección de usuarios y completa el formulario para agregar un nuevo usuario.
+- Editar Usuario: Haz clic en el icono de edición junto al usuario que deseas modificar.
+- Eliminar Usuario: Haz clic en el icono de eliminación para borrar un usuario.
+
 ## 📋 Endpoints de la API
   - GET /users: Obtiene todos los usuarios.
   - POST /users: Crea un nuevo usuario.
